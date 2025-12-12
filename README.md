@@ -1,6 +1,6 @@
 # PySpark Learning Repository
 
-A comprehensive guide to learning PySpark for distributed data processing and analytics.
+A comprehensive, well-organized guide to learning PySpark for distributed data processing and analytics.
 
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5.0-red.svg)](https://spark.apache.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
@@ -20,14 +20,24 @@ A comprehensive guide to learning PySpark for distributed data processing and an
 
 ```
 comprehensive-pyspark-learning/
-├── 0_Getting_Started/               # Installation guides and setup
+├── 0_Getting_Started/               # Installation guides and first programs
+│   ├── pyspark_basics.ipynb         # Your first PySpark operations
+│   ├── mysql_data_loading.ipynb     # Database connectivity
+│   ├── 10gb_data_generation.ipynb   # Large-scale data generation
+│   └── README.md                    # Section navigation
 ├── 1_Basics_and_Setup/              # Core PySpark concepts
 ├── 2_Core_Concepts/                 # Intermediate operations
+│   ├── rdd_operations/              # RDD transformations & actions
+│   ├── dataframe_operations/        # DataFrame operations
+│   ├── examples/                    # Practical examples
+│   └── README.md                    # Section organization
 ├── 3_Advanced_Techniques/           # Performance optimization
 ├── 4_Real_World_Examples/           # Production applications
 ├── 5_Algorithms_and_DataStructures/ # Advanced algorithms
 ├── data/                            # Sample datasets
-├── session_logs/                    # Technical discussions
+├── session_logs/                    # Learning sessions & discussions
+│   ├── archived_sessions/           # Historical sessions by date
+│   └── README.md                    # Session organization guide
 └── README.md                        # This file
 ```
 
@@ -92,11 +102,40 @@ By completing this repository, you will be able to:
 ### 📓 Jupyter Notebooks
 Interactive code examples with explanations and exercises.
 
+### 📄 Markdown Guides
+Detailed documentation and tutorials.
+
+### 💻 Python Scripts
+Runnable code examples and utilities.
+
 ### 📊 Sample Data
 Real datasets for practicing data processing techniques.
 
 ### 📝 Session Logs
 Detailed technical discussions and problem-solving approaches.
+
+## Organization Improvements
+
+### ✅ Better File Naming
+- Removed spaces and special characters
+- Consistent naming conventions
+- Clear, descriptive filenames
+
+### ✅ Logical Grouping
+- **RDD operations** grouped together
+- **DataFrame operations** in separate directory
+- **Session logs** organized chronologically
+- **Examples** clearly categorized
+
+### ✅ Clear Navigation
+- README files in each major section
+- Consistent structure across directories
+- Easy-to-follow learning progression
+
+### ✅ Clean Repository
+- No scattered files in root directories
+- Archived materials properly organized
+- Professional .gitignore configuration
 
 ## Getting Started
 
