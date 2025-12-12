@@ -12,8 +12,6 @@ A comprehensive, well-organized guide to learning PySpark for distributed data p
 | [0: Getting Started](0_Getting_Started/) | Setup & Installation | 1-2 days | Spark installation, environment config |
 | [1: Basics & Setup](1_Basics_and_Setup/) | Core Concepts | 2-3 weeks | RDDs, DataFrames, basic operations |
 | [2: Core Concepts](2_Core_Concepts/) | Intermediate | 3-4 weeks | Transformations, actions, optimization |
-| [3: Advanced Techniques](3_Advanced_Techniques/) | Performance | 2-3 weeks | Tuning, caching, advanced patterns |
-| [4: Real-World Examples](4_Real_World_Examples/) | Applications | 2-4 weeks | ETL pipelines, data engineering |
 | [5: Algorithms & Data Structures](5_Algorithms_and_DataStructures/) | Expert Level | 3-4 weeks | Distributed algorithms, custom functions |
 
 ## Repository Structure
@@ -31,9 +29,11 @@ comprehensive-pyspark-learning/
 │   ├── dataframe_operations/        # DataFrame operations
 │   ├── examples/                    # Practical examples
 │   └── README.md                    # Section organization
-├── 3_Advanced_Techniques/           # Performance optimization
-├── 4_Real_World_Examples/           # Production applications
 ├── 5_Algorithms_and_DataStructures/ # Advanced algorithms
+│   ├── algorithms/                  # Algorithm implementations
+│   ├── data/                        # Sample datasets
+│   ├── scripts/                     # Utility scripts
+│   └── README.md                    # Algorithm guides
 ├── data/                            # Sample datasets
 ├── session_logs/                    # Learning sessions & discussions
 │   ├── archived_sessions/           # Historical sessions by date
@@ -92,10 +92,10 @@ By completing this repository, you will be able to:
 - Apply machine learning with Spark MLlib
 
 ### Advanced Level
-- Build production ETL pipelines
-- Implement distributed algorithms
-- Optimize for large-scale data processing
-- Deploy Spark applications in production
+- Build distributed algorithms from scratch
+- Implement custom data processing functions
+- Handle large-scale biological and statistical data
+- Create efficient distributed computing solutions
 
 ## Content Types
 
@@ -124,8 +124,9 @@ Detailed technical discussions and problem-solving approaches.
 ### ✅ Logical Grouping
 - **RDD operations** grouped together
 - **DataFrame operations** in separate directory
+- **Algorithms** organized by type (aggregation, biological, statistical)
 - **Session logs** organized chronologically
-- **Examples** clearly categorized
+- **Scripts and data** properly categorized
 
 ### ✅ Clear Navigation
 - README files in each major section
@@ -133,9 +134,10 @@ Detailed technical discussions and problem-solving approaches.
 - Easy-to-follow learning progression
 
 ### ✅ Clean Repository
+- Removed empty directories (3_Advanced_Techniques, 4_Real_World_Examples)
+- Eliminated duplicate files from archive
+- Removed large PDF file (3.4MB) not needed in repository
 - No scattered files in root directories
-- Archived materials properly organized
-- Professional .gitignore configuration
 
 ## Getting Started
 
